@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport"
+  content="width=device-width">
+ 
+ <title>Test Fermata</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <form>
+   <h1>TEST FERMATA</h1>
+
+   <div>
+    <input type="button" id="decrypt" 
+       value="Wylosuj liczbę" 
+       onclick="encode();">
+   
+  </div>
+   <p id="titleId">Twoja liczba to :</p>
+
+   <div>
+    <textarea id="inputMessage" name="inputMessage" spellcheck="false" style="font-size: 20px;"></textarea>
+
+    <p id="titleId"> Lub wprowadź własną liczbę:</p>
+
+    <div>
+     <textarea id="inputMessage" name="inputMessage" spellcheck="false" placeholder="Wpisz tekst..." style="font-size: 20px;"></textarea>
+ 
+
+   </div>
+     <div>
+    <input type="button" id="decrypt" 
+       value="Sprawdź czy liczba jest pierwsza" 
+       onclick="decode();">
+   
+  </div>
+  
+   <p id="titleId">Wynik:</p>
+    <div class="box"><input type="text" id="result" /></div>
+</div><br clear="both" />
+
+  </form>
+  <script src="main.js"></script>
+</body>
+</html>
